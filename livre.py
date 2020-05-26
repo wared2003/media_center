@@ -5,19 +5,19 @@ import csv
 class Livre:
 
 # initialisation des attributs de livre
-    def __init__(self, nom, note):
+    def __init__(self, nom, note, auteur, resume):
         self.nom = nom
         self.auteur = auteur
-        self.resume = resime
+        self.resume = resume
         self.note = note
 
     # methode temporaire servant au deboguage
     def hey(self):
         print(self.nom)
 
-    # methode permetant de sauvegardé l'objet courant en bin
+    # methode  permetant de sauvegardé l'objet courant en bin
     def save(self):
-        with open(self.nom + '.data', 'wb') as fic:
+        with open('data/' + self.nom + '.data', 'wb') as fic:
             mon_pickler = pickle.Pickler(fic)
             mon_pickler.dump(self)
 

@@ -5,4 +5,4 @@
 
 
 from livre import Livre
-Livre('michel', 20).save()
+Livre('pierre', 50, 'pierro', 'reusmé de super qualité').save()
