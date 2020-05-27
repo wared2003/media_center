@@ -7,7 +7,7 @@
 def bubble_sort_note(arr):
     for i in range(len(arr) - 1, 0, -1):
         for j in range(i):
-            if arr[j].note > arr[j + 1].note:
+            if int(arr[j].note) > int(arr[j + 1].note):
                 arr[j + 1], arr[j] = arr[j], arr[j + 1]
     return arr
 
@@ -16,7 +16,7 @@ def bubble_sort_note(arr):
 def bubble_sort_note_inverted(arr):
     for i in range(len(arr) - 1, 0, -1):
         for j in range(i):
-            if arr[j].note < arr[j + 1].note:
+            if int(arr[j].note) < int(arr[j + 1].note):
                 arr[j + 1], arr[j] = arr[j], arr[j + 1]
     return arr
 

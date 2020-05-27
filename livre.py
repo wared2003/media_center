@@ -5,11 +5,13 @@ import csv
 class Livre:
 
 # initialisation des attributs de livre
-    def __init__(self, nom, note, auteur, resume):
+    def __init__(self, nom, note, auteur, resume, path, filetype):
         self.nom = nom
         self.auteur = auteur
         self.resume = resume
         self.note = note
+        self.path = path
+        self.filetype = filetype
 
     # methode temporaire servant au deboguage
     def hey(self):
