@@ -8,3 +8,11 @@ Une interface graphique est en cour de devellopement car j'ai beaucoup de temps 
 sinon je prend les pries : de combien d'eleves mr semblat va recevoir ce meme programme ?
 
 La bonne soirée de la par du devellopeur.
+
+
+Pour le faire marhé il suffit de d'extraire le dossier .zip
+puis de ce deplacé dans le dossier extrait.
+en fin il suffit de lancer main.py avec cette commande :
+
+python3 main.py
+
