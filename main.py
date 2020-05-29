@@ -1,4 +1,3 @@
-
 import pickle
 from algo_tri import *
 from user_interaction import *
@@ -6,17 +5,17 @@ from livre import Livre
 
 all_livre_name = []
 
-#liste contenant tous les item
+# liste contenant tous les item
 all_items = []
 
 running = True
 print('develloped by Edouard Nicolas')
-while running :
+while running:
 
     # ouverture du fichier contenant tous les items enregistré
     with open('items.txt', "r") as items:
 
-    # recuperation des  items enregisté
+        # recuperation des  items enregisté
         for ligne in items:
             if ligne != '':
                 livre_name = ligne.strip()
@@ -43,10 +42,10 @@ while running :
 
     elif choice == '5':
         add_media()
-    elif choice == 'q' :
+    elif choice == 'q':
         wasted()
         running = False
 
-    if sorted :
+    if sorted:
         show_in_array(sorted)
         sorted = []
