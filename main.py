@@ -10,7 +10,7 @@ all_livre_name = []
 all_items = []
 
 running = True
-
+print('develloped by Edouard Nicolas')
 while running :
 
     # ouverture du fichier contenant tous les items enregistré
@@ -44,7 +44,7 @@ while running :
     elif choice == '5':
         add_media()
     elif choice == 'q' :
-        print('A bientot')
+        wasted()
         running = False
 
     if sorted :
