@@ -49,3 +49,4 @@ while running:
     if sorted:
         show_in_array(sorted)
         sorted = []
+        all_items = []
